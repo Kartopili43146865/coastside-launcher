@@ -1,0 +1,326 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: url(./images/wp5334273\ 1\ \(1\).svg);
+    background-repeat: no-repeat;
+}
+.navbar{
+    display: flex;
+    width: 92%;
+    margin-left: 4%;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    color: white;
+    
+}
+.navbar div {
+    display: flex;
+    align-items: center;
+}
+.menu {
+    display: flex;
+    gap: 30px;
+    text-shadow: 0 0 5px white;
+    margin-left: 120px;
+}
+.menu p{
+    font-size: 12px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+}
+.menu span {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin-right: 10px;
+
+}
+.menu svg {
+    filter: drop-shadow(0 0 5px white);
+}
+.img{
+    filter: drop-shadow(0 0 10px white);
+
+}
+.absolute{
+    width: 100%;
+    height: 0;
+    box-shadow: 0 0 100px 50px black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.icon div {
+    flex-direction: column;
+}
+.profile {
+    display: flex;
+    gap: 20px;
+}
+.profile button {
+    border: none;
+    border-radius: 160px;
+    width: 160px;
+    height: 35px;
+    background-color: rgba(26, 90,255,1);
+    box-shadow: 0 0 10px rgba(26, 90,255,1);
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    text-shadow: 0 0 5px white;
+}
+.project {
+    display: flex;
+    margin-left: 4%;
+    flex-direction: column;
+    margin-top: 160px;
+}
+.project h1 {
+    font-size: 85px;
+    color: white;
+    text-shadow: 0 0 10px white;
+}
+.project h1 span{
+    color: rgba(0, 102, 255, 1);
+    text-shadow: 0 0 10px rgba(0, 102, 255, 1);
+}
+.project h2 {
+    font-size: 40px;
+    color: white;
+    text-shadow: 0 0 4px white;
+    width: 1008px;
+}
+.items {
+    display: flex;
+    gap: 40px;
+    margin-top: 40px;
+}
+.item-1 {
+    width: 378px;
+    height: 67px;
+    border-radius: 10px;
+    background: linear-gradient(180deg,rgba(0,53,102,1), rgba(0,78,151,1));
+    box-shadow: 0 5px 15px rgba(0,78,151,1);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.item-1 div p{
+    color: white;
+    font-size: 15px;
+}
+.XP{
+    width: 207px;
+    height: 7px;
+    background-color: rgb(217,217,217);
+    border-radius: 5px;   
+}
+.XP div {
+    width: 60%;
+    height: 100%;
+    background: linear-gradient(180deg,rgba(0,163,255,1),rgba(0,53,102,1));
+    border-radius: 5px; 
+}
+.EXP {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-left: 0px;
+}
+.item-1 span {
+    margin-top: 27px;
+    margin-left: -25px;
+    color: white;
+    font-size: 9px;
+}
+.yt-circle {
+    width: 61px;
+    height: 61px;
+    background: linear-gradient(180deg,rgba(0,78,151,1),rgba(0,86,165,0.5));
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 7px 7px rgba(0,86,165,0.5);
+    cursor: pointer;
+}
+.yt-circle svg {
+    width: 27.75px;
+    height: 29.79px;
+    transform: translateX(5px);
+}
+.item-2, .problem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 325px;
+    font-size: 22px;
+    color: white;
+}
+.item-2 h3,.problem h3 {
+    color: rgba(0,102,255,1);
+    font-size: 22px;
+}
+.download{
+    width: 47.5%;
+    margin-left: 26.5%;
+    margin-top: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.install-texts h1 {
+    color: white;
+    font-size: 32px;
+}
+.install-texts p {
+    color: white;
+    font-size: 19px;
+}
+.line {
+    width: 117px;
+    height: 13px;
+    background: linear-gradient(180deg,
+    rgba(0,41,255,1),
+    rgba(0,117,225,1)
+    );
+    border-radius: 20px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 25px;
+}
+.download-link {
+    width: 543px;
+    height: 87px;
+    background: linear-gradient(
+        180deg,
+        rgba(0,78,151,1),
+        rgba(0,53,102,1)
+    );
+    box-shadow: 0 0 20px 10px rgba(0,90,151,1);
+    border-radius: 9px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.download-link h2 {
+    font-size: 32px;
+    color: white;
+}
+.yt-circle-2 {
+    width: 41px;
+    height: 38px;
+}
+.personaji {
+    position: absolute;
+    top: 86px;
+    left: 50%;
+    z-index: -2;
+}
+.shadow {
+    position: absolute;
+    box-shadow: 0 0 1500px 1300px rgba(0, 0, 0, 0.656);
+    top: 0;
+    left: 0;
+    height: 100%;
+    z-index: -1;
+}
+.yt-circle-2 svg {
+    width: 21.4px;
+    height: 21.89px;
+}
+.problem-texts p {
+    font-size: 20px;
+}
+.problem-texts h3 {
+    font-size: 20px;
+}
+.yt-video {
+    margin-top: 40px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+.share-text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.line-2{
+    margin-left: 0;
+    transform: translateX(0);
+    width: 82px;
+    height: 9px;
+}
+.share-text p {
+    font-size: 22px;
+    color: white;
+}
+.shares{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 50px;
+    padding-bottom: 40px;
+}
+.share{
+    display: block;
+}
+.share div{
+    width: 210px;
+    height: 89px;
+    display: flex;
+    justify-content: space-around;
+}
+.share p {
+    margin-top: 10px;
+    width: 210px;
+    height: 29px;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+}
+.share-1 p, .share-1 div{
+    background: linear-gradient(
+        180deg,
+        rgba(18,47,136,1),
+        rgba(18,46,135,1)
+    );
+}
+.share-2 p, .share-2 div{
+    background: linear-gradient(
+        180deg,
+        rgba(255,78,78,1),
+        rgba(132,7,7,1)
+    );
+}
+.share-3 p, .share-3 div{
+    background: linear-gradient(
+        180deg,
+        rgba(134,132,255,1),
+        rgba(89,87,205,1)
+    );
+}
+.person {
+    width: 76px;
+    height: 125px;
+    transform: translateY(-35px);
+}
